@@ -1,4 +1,6 @@
-[Textual Data Project](https://natesock.github.io/Data-Science-Portfolio/TextualDataProject.html)
+[Textual Data Project HTML](https://natesock.github.io/Data-Science-Portfolio/TextualDataProject.html)
+
+[Textual Data Project PDF](https://natesock.github.io/Data-Science-Portfolio/TextualDataProject.pdf)
 
 
 [Textual Data Project Notebook Link](https://natesock.github.io/Data-Science-Portfolio/TextualDataProject.ipynb)
