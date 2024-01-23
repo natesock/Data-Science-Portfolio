@@ -1,4 +1,4 @@
-<h> Welcome to my Github
+<p> Welcome to my Github
 
 [Textual Data Project HTML](https://natesock.github.io/Data-Science-Portfolio/TextualDataProject.html)
 
