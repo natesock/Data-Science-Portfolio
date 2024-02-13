@@ -10,26 +10,63 @@
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
+            color: #333;
         }
+
         header {
-            background-color: #333;
+            background-color: #007bff;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 0 20px;
         }
-        p {
-            line-height: 1.6;
+
+        h1, h2 {
+            text-align: center;
         }
-        a {
+
+        .about-me {
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        .project p {
+            color: #666;
+        }
+
+        .project a {
             color: #007bff;
             text-decoration: none;
+            font-weight: bold;
         }
-        a:hover {
+
+        .project a:hover {
             text-decoration: underline;
         }
     </style>
@@ -37,32 +74,31 @@
 <body>
 
 <header>
-    <h1>Nate Sock</h1>
+    <h1>Nate Sock: Data Science Portfolio</h1>
 </header>
 
 <div class="container">
+   <div class="about-me">
     <h2>About Me</h2>
-    <p>I am a passionate individual interested in <strong>data science</strong> and <strong>web development</strong>. This is my portfolio where I showcase my projects and share my experiences.</p>
-    <p>Feel free to <a href="#">contact me</a> if you have any questions or would like to collaborate!</p>
+    <p>Hi, I'm Nate Sock, a senior at Wheaton College (IL), where I'm studying math with a concentration in statistics and minoring in economics. As a student-athlete on the basketball team, I've developed a passion for both sports and data. I'm particularly interested in data science, with a focus on predictive modeling and data analysis to make informed decisions in sports analytics. Combining my love for basketball with my analytical skills, I aspire to contribute to the evolving field of sports data analytics.</p>
+    <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/natesock/">LinkedIn</a>!</p>
 </div>
 
-<div class="project-container">
-    <h2>My Projects</h2>
-    <div class="project">
-        <h3 class="project-title">Project 1: Data Analysis</h3>
-        <p class="project-description">Evaluated Classifier performance on textual data to classify sentences under UN Sustainable Development Goals a.</p>
-        <!-- Add a hyperlink to your project -->
-        <a href="TextualDataProject.html" class="project-link">Textual Data Project</a>
+    <div class="projects">
+        <div class="project">
+            <h3>Project 1: Textual Data</h3>
+            <p>Evaluated Classifier performance on textual data to classify sentences under UN Sustainable Development Goals</p>
+            <a href="TextualDataProject.html">Textual Data Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Project 2: Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et magna vel velit laoreet varius. Proin feugiat auctor lacus, ac hendrerit nisl mattis a.</p>
+            <a href="Path-to-your-second-project.html">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
     </div>
-    <div class="project">
-        <h3 class="project-title">Project 2: Web Development</h3>
-        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et magna vel velit laoreet varius. Proin feugiat auctor lacus, ac hendrerit nisl mattis a.</p>
-        <!-- Add a hyperlink to your project -->
-        <a href="Path-to-your-second-project.html" class="project-link">View Project</a>
-    </div>
-    <!-- Add more projects as needed -->
 </div>
 
-    
 </body>
 </html>
